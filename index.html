@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Everything about Birds</title>
+        <link rel="icon" href="./img/Bird.jpg">
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+
+    <body>
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="navbar-container">
+            <div class="logo">
+                <img id="header-logo" src="./img/Logo.png" alt="Event Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Schedule">Schedule</a></li>
+                <li><a href="#Links">Links</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h2 id="Home">Birds of the World</h2>
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/hDUiRcy0V8Q?si=ZY0mN96I6okJEFCm" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>Welcome to our featured events hosted by the renowed Cornell Lab of Ornithology. 
+        In this event, everything related to birds will be answered. 
+        Together, let us embark on an unforgettable experience to enjoy,
+        understand, and protect birds and the natural world.
+        Join us and help create a future where birds, nature, and humans can thrive. </p>
+
+    <h3 id="About">Hosted by Cornell Lab of Ornithology</h3>
+    <h4>About CLO</h4>
+    <ul>
+        <li> <b>Location:</b> <i>The Cornell Lab of Ornithology is a member-supported unit of Cornell University in Ithaca, New York.</i></li>
+        <li> <b>History:</b> <i>Founded by Arthur A. Allen, the Lab was established at Cornell University in 1915.</i></li>
+        <li> <b>Mission:</b> <i>interpreting and conserving the Earth's biological diversity through research, education, and citizen science focused on birds.</i></li>
+    </ul>
+
+    <div class="schedule-header" id="Schedule">
+        <h2>Event Schedule</h2>
+    </div>
+    <div class="schedule-container">
+        <div class="schedule-item">
+            <h3>Event Activity 1</h3>
+            <p>Description of event activity.</p>
+            <img alt="A screenshot of Day 1 schedule." src="./img/Schedule 1.png"/>
+        </div>
+        <div class="schedule-item">
+            <h3>Event Activity 2</h3>
+            <p>Description of event activity.</p>
+            <img alt="A screenshot of Day 2 schedule." src="./img/Schedule 2.png"/>
+        </div>
+        <div class="schedule-item">
+            <h3>Event Activity 3</h3>
+            <p>Description of event activity.</p>
+            <img alt="A screenshot of Day 3 schedule." src="./img/Schedule 3.png"/>
+        </div>
+    </div>
+
+    <div id="rsvp">
+        <h2>RSVP</h2>
+        <div class="rsvp-container">
+            <div class="rsvp-para">
+                <!-- info goes here -->
+                Together, let’s embark on a lifelong journey to enjoy, understand, and protect birds and
+                the natural world. The Cornell Lab is powered by science, technology, 
+                and millions of people around the globe—people like you. Come and experience the Visitor Center’s 
+                NEW interactive indoor exhibits, view world class art, and explore 5 miles of trails in Sapsucker Woods Sanctuary.
+                Simply type in your infomation to schdeule your upcoming visit 
+                at the Cornell Lab of Ornithology.
+            </div>
+            <div class="rsvp-participants">
+                <p>🎟️ Annie has signed up for 6/8/2023.</p>
+                <p>🎟️ Julia has signed up for 8/13/2026.</p>
+                <p>🎟️ Sam has signed up for 3/26/2028.</p>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form id="rsvp-form" title="rsvp-form">
+                <!-- form inputs go here -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="date">
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </form>
+            <button id="rsvp-button">Submit RSVP</button>
+        </div>      
+    </div>
+       
+        <h2 id="Links">Links</h2>
+        <a class="block" href="https://www.allaboutbirds.org/news/identifying-flycatchers-how-to-get-started/">
+            <article>
+                <h3>Identifying Flycatchers: How to Get Started</h3>
+                <p>Step by step guidelines for indentifying flycatchers</p>
+            </article>
+        </a>
+        <a class="block" href="https://www.allaboutbirds.org/news/pocket-binocular-review-our-search-for-the-best-tiny-binoculars/">
+            <article>
+                <h3>Pocket Binocular Review: Our Search for the Best Tiny Binoculars</h3>
+                <p>Detailed reviews for picketing a pair of binocular</p>
+            </article>
+        </a>
+        <div class="footer">
+            <a href="https://www.birds.cornell.edu/home/visit/events/#calendar">
+            Full Schedule
+            </a>
+            /
+            <a href="https://www.birds.cornell.edu/home/virtual-experiences/">
+            Virtual Events
+            </a>
+        </div>
+     <script src="index.js"></script>
+    </body>
+</html>
