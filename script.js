@@ -22,7 +22,6 @@ const addParticipant = (event) => {
 const validateForm = (event) => {
   event.preventDefault();
   let containsErrors = false;
-
   var rsvpInputs = document.getElementById("rsvp-form").elements;
   for (let i = 0; i < rsvpInputs.length; i++){
     const input = rsvpInputs[i];
